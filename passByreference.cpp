@@ -10,7 +10,7 @@
 
 
 float roundOffNumber(float &decimalNumber, int decimalPlaces) {
-    // This function rounds numbers
+    // This function rounds off numbers
     float roundedOff;
     int tempInt;
 
@@ -43,6 +43,7 @@ int main() {
         userNumber = std::stof(userNumberString);
         decimalPlaces = std::stoi(decimalPlacesString);
 
+        // calls function
         roundOffNumber(userNumber, decimalPlaces);
 
         std::cout << "The rounded number is " << userNumber << std::endl;
