@@ -9,7 +9,7 @@
 #include <string>
 
 
-float roundOffNumber(float &decimalNumber, int &decimalPlaces) {
+float roundOffNumber(float &decimalNumber, int decimalPlaces) {
     // This function rounds numbers
     float roundedOff;
     int tempInt;
